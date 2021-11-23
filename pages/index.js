@@ -8,7 +8,7 @@ const Home = ({ articles, categories, homepage }) => {
   return (
     <Layout categories={categories}>
       <Seo seo={homepage.seo} />
-      <div className='home__content'>
+      <div className="home__content">
       <div className="uk-section">
         <div className="uk-container uk-container-large">
           {/* <h1>{homepage.hero.title}</h1> */}

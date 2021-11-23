@@ -19,14 +19,12 @@ const Article = ({ article, categories }) => {
   return (
     <Layout categories={categories}>
       <Seo seo={seo} />
-      <div className='article__content'>
-      <div
-        id="banner"
+      <div className="article__content">
+      <div id="banner"
         className="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light uk-padding uk-margin"
         data-src={imageUrl}
         data-srcset={imageUrl}
-        data-uk-img
-      >
+        data-uk-img>
       
       </div>
       </div>
