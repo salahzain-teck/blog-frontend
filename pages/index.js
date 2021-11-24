@@ -1,10 +1,12 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import Articles from "../components/articles"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { fetchAPI } from "../lib/api"
 
 const Home = ({ articles, categories, homepage }) => {
+  // const [data, setData] = useState()
+  console.log('img--url ==>',articles[0].image.url)
   return (
     <Layout categories={categories}>
       <Seo seo={homepage.seo} />
