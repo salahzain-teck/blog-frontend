@@ -21,12 +21,12 @@ const Article = ({ article, categories }) => {
       <Seo seo={seo} />
       <div className="article__content">
       <div id="banner"
-        // className="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-contain  uk-light uk-padding uk-margin"
-        // data-src={imageUrl}
-        // data-srcset={imageUrl}
-        // data-uk-img
+        className="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-contain  uk-light uk-padding uk-margin"
+        data-src={imageUrl}
+        data-srcset={imageUrl}
+        data-uk-img
         >
-      <img src={imageUrl} />
+      {/* <img src={imageUrl} /> */}
       </div>
       </div>
      
